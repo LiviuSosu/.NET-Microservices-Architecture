@@ -24,6 +24,11 @@
     ".NETCoreApp,Version=v3.1": {
       "MicroservicesProjectArchitecture.WebApi/1.0.0": {
         "dependencies": {
+          "MediatR": "8.0.1",
+          "MicroservicesProjectArchitecture.Application": "1.0.0",
+          "MicroservicesProjectArchitecture.Common": "1.0.0",
+          "MicroservicesProjectArchitecture.Infrastructure": "1.0.0",
+          "MicroservicesProjectArchitecture.Migrations": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -312,6 +317,80 @@
         },
         "compile": {
           "MicroservicesProjectArchitecture.WebApi.dll": {}
+        }
+      },
+      "MediatR/8.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {
+            "assemblyVersion": "8.0.1.0",
+            "fileVersion": "8.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
+      "MicroservicesProjectArchitecture.Application/1.0.0": {
+        "dependencies": {
+          "MicroservicesProjectArchitecture.Common": "1.0.0",
+          "MicroservicesProjectArchitecture.Domain": "1.0.0",
+          "MicroservicesProjectArchitecture.Persistance": "1.0.0"
+        },
+        "runtime": {
+          "MicroservicesProjectArchitecture.Application.dll": {}
+        },
+        "compile": {
+          "MicroservicesProjectArchitecture.Application.dll": {}
+        }
+      },
+      "MicroservicesProjectArchitecture.Common/1.0.0": {
+        "runtime": {
+          "MicroservicesProjectArchitecture.Common.dll": {}
+        },
+        "compile": {
+          "MicroservicesProjectArchitecture.Common.dll": {}
+        }
+      },
+      "MicroservicesProjectArchitecture.Domain/1.0.0": {
+        "runtime": {
+          "MicroservicesProjectArchitecture.Domain.dll": {}
+        },
+        "compile": {
+          "MicroservicesProjectArchitecture.Domain.dll": {}
+        }
+      },
+      "MicroservicesProjectArchitecture.Infrastructure/1.0.0": {
+        "dependencies": {
+          "MicroservicesProjectArchitecture.Application": "1.0.0",
+          "MicroservicesProjectArchitecture.Common": "1.0.0"
+        },
+        "runtime": {
+          "MicroservicesProjectArchitecture.Infrastructure.dll": {}
+        },
+        "compile": {
+          "MicroservicesProjectArchitecture.Infrastructure.dll": {}
+        }
+      },
+      "MicroservicesProjectArchitecture.Migrations/1.0.0": {
+        "dependencies": {
+          "MicroservicesProjectArchitecture.Persistance": "1.0.0"
+        },
+        "runtime": {
+          "MicroservicesProjectArchitecture.Migrations.dll": {}
+        },
+        "compile": {
+          "MicroservicesProjectArchitecture.Migrations.dll": {}
+        }
+      },
+      "MicroservicesProjectArchitecture.Persistance/1.0.0": {
+        "dependencies": {
+          "MicroservicesProjectArchitecture.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MicroservicesProjectArchitecture.Persistance.dll": {}
+        },
+        "compile": {
+          "MicroservicesProjectArchitecture.Persistance.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2010,6 +2089,43 @@
   },
   "libraries": {
     "MicroservicesProjectArchitecture.WebApi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MediatR/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nqtv05FHNNNLmEv4QN9pRtmSLa0bnDPciOjLKpA/k5FZIVS72vPyY3/1lHQ9V/dcQSMA5ZLig62SyRk2cSKNBA==",
+      "path": "mediatr/8.0.1",
+      "hashPath": "mediatr.8.0.1.nupkg.sha512"
+    },
+    "MicroservicesProjectArchitecture.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicroservicesProjectArchitecture.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicroservicesProjectArchitecture.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicroservicesProjectArchitecture.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicroservicesProjectArchitecture.Migrations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicroservicesProjectArchitecture.Persistance/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

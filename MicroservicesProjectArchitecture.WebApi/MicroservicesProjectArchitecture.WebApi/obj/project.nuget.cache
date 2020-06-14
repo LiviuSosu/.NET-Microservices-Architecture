@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Cdrvg7op5m9sSxPE6VTuUqX5DGeDWwLX8IEVkFNMyENqL4n9Maxo/RtM3E5r3OK8JnnnV8ZrvyEZLOkKE/dLvg==",
+  "dgSpecHash": "3XOwXCBTGePloXbToa4l+/Uif/3hhEWczR+ckx3xJz9nqtfT+6Xb4CIgEAmit7LnJfwVZ+9Wp2P3A8EnatfuIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Liviu\\Career\\Articles\\ProjectTemplate .NET core 3.1\\MicroservicesProjectArchitecture.WebApi\\MicroservicesProjectArchitecture.WebApi\\MicroservicesProjectArchitecture.WebApi.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Liviu\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\Liviu\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
