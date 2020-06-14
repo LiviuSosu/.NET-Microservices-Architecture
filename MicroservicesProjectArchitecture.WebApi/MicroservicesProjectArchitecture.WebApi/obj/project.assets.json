@@ -1,11 +1,123 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "MicroservicesProjectArchitecture.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MicroservicesProjectArchitecture.Common": "1.0.0",
+          "MicroservicesProjectArchitecture.Domain": "1.0.0",
+          "MicroservicesProjectArchitecture.Persistance": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MicroservicesProjectArchitecture.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroservicesProjectArchitecture.Application.dll": {}
+        }
+      },
+      "MicroservicesProjectArchitecture.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/MicroservicesProjectArchitecture.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroservicesProjectArchitecture.Common.dll": {}
+        }
+      },
+      "MicroservicesProjectArchitecture.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/MicroservicesProjectArchitecture.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroservicesProjectArchitecture.Domain.dll": {}
+        }
+      },
+      "MicroservicesProjectArchitecture.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MicroservicesProjectArchitecture.Application": "1.0.0",
+          "MicroservicesProjectArchitecture.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MicroservicesProjectArchitecture.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroservicesProjectArchitecture.Infrastructure.dll": {}
+        }
+      },
+      "MicroservicesProjectArchitecture.Migrations/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MicroservicesProjectArchitecture.Persistance": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MicroservicesProjectArchitecture.Migrations.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroservicesProjectArchitecture.Migrations.dll": {}
+        }
+      },
+      "MicroservicesProjectArchitecture.Persistance/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MicroservicesProjectArchitecture.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MicroservicesProjectArchitecture.Persistance.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroservicesProjectArchitecture.Persistance.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MicroservicesProjectArchitecture.Application/1.0.0": {
+      "type": "project",
+      "path": "../MicroservicesProjectArchitecture.Application/MicroservicesProjectArchitecture.Application.csproj",
+      "msbuildProject": "../MicroservicesProjectArchitecture.Application/MicroservicesProjectArchitecture.Application.csproj"
+    },
+    "MicroservicesProjectArchitecture.Common/1.0.0": {
+      "type": "project",
+      "path": "../MicroservicesProjectArchitecture.Common/MicroservicesProjectArchitecture.Common.csproj",
+      "msbuildProject": "../MicroservicesProjectArchitecture.Common/MicroservicesProjectArchitecture.Common.csproj"
+    },
+    "MicroservicesProjectArchitecture.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MicroservicesProjectArchitecture.Domain/MicroservicesProjectArchitecture.Domain.csproj",
+      "msbuildProject": "../MicroservicesProjectArchitecture.Domain/MicroservicesProjectArchitecture.Domain.csproj"
+    },
+    "MicroservicesProjectArchitecture.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../MicroservicesProjectArchitecture.Infrastructure/MicroservicesProjectArchitecture.Infrastructure.csproj",
+      "msbuildProject": "../MicroservicesProjectArchitecture.Infrastructure/MicroservicesProjectArchitecture.Infrastructure.csproj"
+    },
+    "MicroservicesProjectArchitecture.Migrations/1.0.0": {
+      "type": "project",
+      "path": "../MicroservicesProjectArchitecture.Persistance.Migrations/MicroservicesProjectArchitecture.Migrations.csproj",
+      "msbuildProject": "../MicroservicesProjectArchitecture.Persistance.Migrations/MicroservicesProjectArchitecture.Migrations.csproj"
+    },
+    "MicroservicesProjectArchitecture.Persistance/1.0.0": {
+      "type": "project",
+      "path": "../MicroservicesProjectArchitecture.Persistance/MicroservicesProjectArchitecture.Persistance.csproj",
+      "msbuildProject": "../MicroservicesProjectArchitecture.Persistance/MicroservicesProjectArchitecture.Persistance.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "MicroservicesProjectArchitecture.Application >= 1.0.0",
+      "MicroservicesProjectArchitecture.Common >= 1.0.0",
+      "MicroservicesProjectArchitecture.Infrastructure >= 1.0.0",
+      "MicroservicesProjectArchitecture.Migrations >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Liviu\\.nuget\\packages\\": {},
@@ -36,7 +148,20 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Liviu\\Career\\Articles\\ProjectTemplate .NET core 3.1\\MicroservicesProjectArchitecture.WebApi\\MicroservicesProjectArchitecture.Application\\MicroservicesProjectArchitecture.Application.csproj": {
+              "projectPath": "C:\\Users\\Liviu\\Career\\Articles\\ProjectTemplate .NET core 3.1\\MicroservicesProjectArchitecture.WebApi\\MicroservicesProjectArchitecture.Application\\MicroservicesProjectArchitecture.Application.csproj"
+            },
+            "C:\\Users\\Liviu\\Career\\Articles\\ProjectTemplate .NET core 3.1\\MicroservicesProjectArchitecture.WebApi\\MicroservicesProjectArchitecture.Common\\MicroservicesProjectArchitecture.Common.csproj": {
+              "projectPath": "C:\\Users\\Liviu\\Career\\Articles\\ProjectTemplate .NET core 3.1\\MicroservicesProjectArchitecture.WebApi\\MicroservicesProjectArchitecture.Common\\MicroservicesProjectArchitecture.Common.csproj"
+            },
+            "C:\\Users\\Liviu\\Career\\Articles\\ProjectTemplate .NET core 3.1\\MicroservicesProjectArchitecture.WebApi\\MicroservicesProjectArchitecture.Infrastructure\\MicroservicesProjectArchitecture.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Liviu\\Career\\Articles\\ProjectTemplate .NET core 3.1\\MicroservicesProjectArchitecture.WebApi\\MicroservicesProjectArchitecture.Infrastructure\\MicroservicesProjectArchitecture.Infrastructure.csproj"
+            },
+            "C:\\Users\\Liviu\\Career\\Articles\\ProjectTemplate .NET core 3.1\\MicroservicesProjectArchitecture.WebApi\\MicroservicesProjectArchitecture.Persistance.Migrations\\MicroservicesProjectArchitecture.Migrations.csproj": {
+              "projectPath": "C:\\Users\\Liviu\\Career\\Articles\\ProjectTemplate .NET core 3.1\\MicroservicesProjectArchitecture.WebApi\\MicroservicesProjectArchitecture.Persistance.Migrations\\MicroservicesProjectArchitecture.Migrations.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

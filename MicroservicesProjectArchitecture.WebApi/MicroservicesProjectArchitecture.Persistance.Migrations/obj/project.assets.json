@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "MicroservicesProjectArchitecture.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/MicroservicesProjectArchitecture.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroservicesProjectArchitecture.Domain.dll": {}
+        }
+      },
+      "MicroservicesProjectArchitecture.Persistance/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MicroservicesProjectArchitecture.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MicroservicesProjectArchitecture.Persistance.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroservicesProjectArchitecture.Persistance.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MicroservicesProjectArchitecture.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MicroservicesProjectArchitecture.Domain/MicroservicesProjectArchitecture.Domain.csproj",
+      "msbuildProject": "../MicroservicesProjectArchitecture.Domain/MicroservicesProjectArchitecture.Domain.csproj"
+    },
+    "MicroservicesProjectArchitecture.Persistance/1.0.0": {
+      "type": "project",
+      "path": "../MicroservicesProjectArchitecture.Persistance/MicroservicesProjectArchitecture.Persistance.csproj",
+      "msbuildProject": "../MicroservicesProjectArchitecture.Persistance/MicroservicesProjectArchitecture.Persistance.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "MicroservicesProjectArchitecture.Persistance >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Liviu\\.nuget\\packages\\": {},
@@ -36,7 +73,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Liviu\\Career\\Articles\\ProjectTemplate .NET core 3.1\\MicroservicesProjectArchitecture.WebApi\\MicroservicesProjectArchitecture.Persistance\\MicroservicesProjectArchitecture.Persistance.csproj": {
+              "projectPath": "C:\\Users\\Liviu\\Career\\Articles\\ProjectTemplate .NET core 3.1\\MicroservicesProjectArchitecture.WebApi\\MicroservicesProjectArchitecture.Persistance\\MicroservicesProjectArchitecture.Persistance.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

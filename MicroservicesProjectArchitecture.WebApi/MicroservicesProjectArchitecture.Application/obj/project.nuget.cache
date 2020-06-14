@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SF9zoAzpIbUcJ+oSFYzKEzqCxsYnow5g5L+/yo+asrZx7+oT5q9aWTX/f5qqLWj9WSIF+qVdIxTr+IGN4v9tVA==",
+  "dgSpecHash": "EFZG19vcJdG/FsJ7eyPRH5uogycaqP2Nio/Ll1NlR9aOmbmWRJtSUAhsDj7ZOs+9NM8WCpXLbPIfNRULDDmt4g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Liviu\\Career\\Articles\\ProjectTemplate .NET core 3.1\\MicroservicesProjectArchitecture.WebApi\\MicroservicesProjectArchitecture.Application\\MicroservicesProjectArchitecture.Application.csproj",
   "expectedPackageFiles": [],

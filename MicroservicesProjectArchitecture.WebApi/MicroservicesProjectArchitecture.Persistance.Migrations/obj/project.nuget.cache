@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ks4WADfBcKGX14h7DiKyLqsjqSqzDPjeA2goZiK5OUQAgKm0LjUvnORjZuln0dK85OBC7mMtdR2q2Yy99cHfZQ==",
+  "dgSpecHash": "fce+zLAh7SD9X4Rz5wF751xfM0po86zHz1fXFkwGG+fRRhXOyHVlVJo43sLGlsl0SqYSabX+L0UV05rYdsNlrQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Liviu\\Career\\Articles\\ProjectTemplate .NET core 3.1\\MicroservicesProjectArchitecture.WebApi\\MicroservicesProjectArchitecture.Persistance.Migrations\\MicroservicesProjectArchitecture.Migrations.csproj",
   "expectedPackageFiles": [],

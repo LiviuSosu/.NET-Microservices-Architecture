@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MicroservicesProjectArchitecture.Common\MicroservicesProjectArchitecture.Common.csproj" />
+    <ProjectReference Include="..\MicroservicesProjectArchitecture.Domain\MicroservicesProjectArchitecture.Domain.csproj" />
+    <ProjectReference Include="..\MicroservicesProjectArchitecture.Persistance\MicroservicesProjectArchitecture.Persistance.csproj" />
+  </ItemGroup>
+
 </Project>
