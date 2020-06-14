@@ -7,14 +7,40 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "MicroservicesProjectArchitecture.Migrations/1.0.0": {
+        "dependencies": {
+          "MicroservicesProjectArchitecture.Persistance": "1.0.0"
+        },
         "runtime": {
           "MicroservicesProjectArchitecture.Migrations.dll": {}
+        }
+      },
+      "MicroservicesProjectArchitecture.Domain/1.0.0": {
+        "runtime": {
+          "MicroservicesProjectArchitecture.Domain.dll": {}
+        }
+      },
+      "MicroservicesProjectArchitecture.Persistance/1.0.0": {
+        "dependencies": {
+          "MicroservicesProjectArchitecture.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MicroservicesProjectArchitecture.Persistance.dll": {}
         }
       }
     }
   },
   "libraries": {
     "MicroservicesProjectArchitecture.Migrations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicroservicesProjectArchitecture.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicroservicesProjectArchitecture.Persistance/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

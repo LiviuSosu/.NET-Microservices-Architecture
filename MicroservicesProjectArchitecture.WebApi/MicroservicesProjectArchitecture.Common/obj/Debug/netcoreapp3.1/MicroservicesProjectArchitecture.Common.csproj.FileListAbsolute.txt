@@ -6,3 +6,4 @@ C:\Users\Liviu\Career\Articles\ProjectTemplate .NET core 3.1\MicroservicesProjec
 C:\Users\Liviu\Career\Articles\ProjectTemplate .NET core 3.1\MicroservicesProjectArchitecture.WebApi\MicroservicesProjectArchitecture.Common\obj\Debug\netcoreapp3.1\MicroservicesProjectArchitecture.Common.csproj.CoreCompileInputs.cache
 C:\Users\Liviu\Career\Articles\ProjectTemplate .NET core 3.1\MicroservicesProjectArchitecture.WebApi\MicroservicesProjectArchitecture.Common\obj\Debug\netcoreapp3.1\MicroservicesProjectArchitecture.Common.dll
 C:\Users\Liviu\Career\Articles\ProjectTemplate .NET core 3.1\MicroservicesProjectArchitecture.WebApi\MicroservicesProjectArchitecture.Common\obj\Debug\netcoreapp3.1\MicroservicesProjectArchitecture.Common.pdb
+C:\Users\Liviu\Career\Articles\ProjectTemplate .NET core 3.1\MicroservicesProjectArchitecture.WebApi\MicroservicesProjectArchitecture.Common\obj\Debug\netcoreapp3.1\MicroservicesProjectArchitecture.Common.csprojAssemblyReference.cache

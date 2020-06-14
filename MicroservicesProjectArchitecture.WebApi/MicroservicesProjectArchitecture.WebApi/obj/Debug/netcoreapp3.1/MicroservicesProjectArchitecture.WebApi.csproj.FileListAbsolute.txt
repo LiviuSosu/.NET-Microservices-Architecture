@@ -30,3 +30,6 @@ C:\Users\Liviu\Career\Articles\ProjectTemplate .NET core 3.1\MicroservicesProjec
 C:\Users\Liviu\Career\Articles\ProjectTemplate .NET core 3.1\MicroservicesProjectArchitecture.WebApi\MicroservicesProjectArchitecture.WebApi\bin\Debug\netcoreapp3.1\MicroservicesProjectArchitecture.Persistance.pdb
 C:\Users\Liviu\Career\Articles\ProjectTemplate .NET core 3.1\MicroservicesProjectArchitecture.WebApi\MicroservicesProjectArchitecture.WebApi\obj\Debug\netcoreapp3.1\MicroservicesProjectArchitecture.WebApi.csproj.CopyComplete
 C:\Users\Liviu\Career\Articles\ProjectTemplate .NET core 3.1\MicroservicesProjectArchitecture.WebApi\MicroservicesProjectArchitecture.WebApi\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\Liviu\Career\Articles\ProjectTemplate .NET core 3.1\MicroservicesProjectArchitecture.WebApi\MicroservicesProjectArchitecture.WebApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Liviu\Career\Articles\ProjectTemplate .NET core 3.1\MicroservicesProjectArchitecture.WebApi\MicroservicesProjectArchitecture.WebApi\obj\Debug\netcoreapp3.1\MicroservicesProjectArchitecture.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Liviu\Career\Articles\ProjectTemplate .NET core 3.1\MicroservicesProjectArchitecture.WebApi\MicroservicesProjectArchitecture.WebApi\obj\Debug\netcoreapp3.1\MicroservicesProjectArchitecture.WebApi.MvcApplicationPartsAssemblyInfo.cache

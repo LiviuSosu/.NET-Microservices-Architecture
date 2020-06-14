@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "MicroservicesProjectArchitecture.Persistance/1.0.0": {
+        "dependencies": {
+          "MicroservicesProjectArchitecture.Domain": "1.0.0"
+        },
         "runtime": {
           "MicroservicesProjectArchitecture.Persistance.dll": {}
+        }
+      },
+      "MicroservicesProjectArchitecture.Domain/1.0.0": {
+        "runtime": {
+          "MicroservicesProjectArchitecture.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "MicroservicesProjectArchitecture.Persistance/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicroservicesProjectArchitecture.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

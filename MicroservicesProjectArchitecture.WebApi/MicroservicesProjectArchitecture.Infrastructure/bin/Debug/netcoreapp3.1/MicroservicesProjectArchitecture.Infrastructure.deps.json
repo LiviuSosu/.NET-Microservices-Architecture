@@ -7,14 +7,66 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "MicroservicesProjectArchitecture.Infrastructure/1.0.0": {
+        "dependencies": {
+          "MicroservicesProjectArchitecture.Application": "1.0.0",
+          "MicroservicesProjectArchitecture.Common": "1.0.0"
+        },
         "runtime": {
           "MicroservicesProjectArchitecture.Infrastructure.dll": {}
+        }
+      },
+      "MicroservicesProjectArchitecture.Application/1.0.0": {
+        "dependencies": {
+          "MicroservicesProjectArchitecture.Common": "1.0.0",
+          "MicroservicesProjectArchitecture.Domain": "1.0.0",
+          "MicroservicesProjectArchitecture.Persistance": "1.0.0"
+        },
+        "runtime": {
+          "MicroservicesProjectArchitecture.Application.dll": {}
+        }
+      },
+      "MicroservicesProjectArchitecture.Common/1.0.0": {
+        "runtime": {
+          "MicroservicesProjectArchitecture.Common.dll": {}
+        }
+      },
+      "MicroservicesProjectArchitecture.Domain/1.0.0": {
+        "runtime": {
+          "MicroservicesProjectArchitecture.Domain.dll": {}
+        }
+      },
+      "MicroservicesProjectArchitecture.Persistance/1.0.0": {
+        "dependencies": {
+          "MicroservicesProjectArchitecture.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MicroservicesProjectArchitecture.Persistance.dll": {}
         }
       }
     }
   },
   "libraries": {
     "MicroservicesProjectArchitecture.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicroservicesProjectArchitecture.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicroservicesProjectArchitecture.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicroservicesProjectArchitecture.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicroservicesProjectArchitecture.Persistance/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

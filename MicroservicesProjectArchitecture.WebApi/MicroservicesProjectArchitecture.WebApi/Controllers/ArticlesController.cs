@@ -32,7 +32,8 @@ namespace MicroservicesProjectArchitecture.WebApi.Controllers
             try
             {
                 _logger.LogInformation(actionName, JsonConvert.SerializeObject(paginationModel));
-                return Ok(await Mediator.Send(new GetArticlesListQuery(paginationModel)));
+                //return Ok(await Mediator.Send(new GetArticlesListQuery(paginationModel)));
+                return Ok("some articles ...");
             }
             catch (Exception exception)
             {

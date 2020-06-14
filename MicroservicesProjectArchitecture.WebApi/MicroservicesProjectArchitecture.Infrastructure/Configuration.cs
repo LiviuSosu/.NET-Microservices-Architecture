@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MicroservicesProjectArchitecture.Common;
 
-namespace MicroservicesProjectArchitecture.Common
+namespace MicroservicesProjectArchitecture.Infrastructure
 {
     public class Configuration : IConfiguration
     {

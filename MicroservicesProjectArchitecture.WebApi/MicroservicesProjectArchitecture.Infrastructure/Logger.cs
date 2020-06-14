@@ -1,6 +1,7 @@
-﻿using System;
+﻿using MicroservicesProjectArchitecture.Common;
+using System;
 
-namespace MicroservicesProjectArchitecture.Common
+namespace MicroservicesProjectArchitecture.Infrastructure
 {
     public class Logger : ILogger
     {
