@@ -2,6 +2,7 @@
 using System.Net;
 using System.Threading.Tasks;
 using MediatR;
+using MicroservicesProjectArchitecture.Application.Articles.Queries.GetArticles;
 using MicroservicesProjectArchitecture.Application.Paging;
 using MicroservicesProjectArchitecture.Common;
 using Microsoft.AspNetCore.Mvc;
@@ -13,7 +14,7 @@ namespace MicroservicesProjectArchitecture.WebApi.Controllers
     [ApiController]
     [ProducesResponseType((int)HttpStatusCode.OK)]
     [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
-    public class ArticlesController : ControllerBase
+    public class ArticlesController : BaseController
     {
         private readonly ILogger _logger;
         private readonly IConfiguration _configuration;
@@ -32,8 +33,7 @@ namespace MicroservicesProjectArchitecture.WebApi.Controllers
             try
             {
                 _logger.LogInformation(actionName, JsonConvert.SerializeObject(paginationModel));
-                //return Ok(await Mediator.Send(new GetArticlesListQuery(paginationModel)));
-                return Ok("some articles ...");
+                return Ok(await Mediator.Send(new GetArticlesListQuery(paginationModel)));
             }
             catch (Exception exception)
             {
