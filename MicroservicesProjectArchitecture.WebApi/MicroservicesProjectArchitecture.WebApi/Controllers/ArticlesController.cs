@@ -16,13 +16,13 @@ namespace MicroservicesProjectArchitecture.WebApi.Controllers
     [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
     public class ArticlesController : BaseController
     {
-        //private readonly ILogger _logger;
+        private readonly ILogger _logger;
         private readonly IConfiguration _configuration;
 
         //inject other services here in constructor
-        public ArticlesController(/*ILogger logger,*/ IConfiguration configuration)
+        public ArticlesController(ILogger logger, IConfiguration configuration)
         {
-            //_logger = logger;
+            _logger = logger;
             _configuration = configuration;
         }
 
@@ -32,12 +32,12 @@ namespace MicroservicesProjectArchitecture.WebApi.Controllers
             var actionName = ControllerContext.ActionDescriptor.ActionName;
             try
             {
-                //_logger.LogInformation(actionName, JsonConvert.SerializeObject(paginationModel));
+                _logger.LogInformation(actionName, JsonConvert.SerializeObject(paginationModel));
                 return Ok(await Mediator.Send(new GetArticlesListQuery(paginationModel)));
             }
             catch (Exception exception)
             {
-                //_logger.LogException(exception, actionName, JsonConvert.SerializeObject(paginationModel));
+                _logger.LogException(exception, actionName, JsonConvert.SerializeObject(paginationModel));
                 return StatusCode(500, _configuration.DisplayUserErrorMessage);
             }
         }
