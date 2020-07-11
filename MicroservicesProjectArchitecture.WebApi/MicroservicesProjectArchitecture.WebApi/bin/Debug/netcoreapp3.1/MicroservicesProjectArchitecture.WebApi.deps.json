@@ -24,8 +24,8 @@
     ".NETCoreApp,Version=v3.1": {
       "MicroservicesProjectArchitecture.WebApi/1.0.0": {
         "dependencies": {
-          "FluentValidation.AspNetCore": "8.6.2",
-          "MediatR": "8.0.1",
+          "FluentValidation.AspNetCore": "9.0.0",
+          "MediatR": "8.0.2",
           "MediatR.Extensions.Microsoft.DependencyInjection": "8.0.1",
           "MicroservicesProjectArchitecture.Application": "1.0.0",
           "MicroservicesProjectArchitecture.Common": "1.0.0",
@@ -310,64 +310,61 @@
           "MicroservicesProjectArchitecture.WebApi.dll": {}
         }
       },
-      "FluentValidation/8.6.2": {
-        "dependencies": {
-          "System.ComponentModel.Annotations": "4.7.0"
-        },
+      "FluentValidation/9.0.0": {
         "runtime": {
           "lib/netstandard2.0/FluentValidation.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.6.2.0"
+            "fileVersion": "9.0.0.0"
           }
         },
         "compile": {
           "lib/netstandard2.0/FluentValidation.dll": {}
         }
       },
-      "FluentValidation.AspNetCore/8.6.2": {
+      "FluentValidation.AspNetCore/9.0.0": {
         "dependencies": {
-          "FluentValidation": "8.6.2",
-          "FluentValidation.DependencyInjectionExtensions": "8.6.2"
+          "FluentValidation": "9.0.0",
+          "FluentValidation.DependencyInjectionExtensions": "9.0.0"
         },
         "runtime": {
           "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.6.2.0"
+            "fileVersion": "9.0.0.0"
           }
         },
         "compile": {
           "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {}
         }
       },
-      "FluentValidation.DependencyInjectionExtensions/8.6.2": {
+      "FluentValidation.DependencyInjectionExtensions/9.0.0": {
         "dependencies": {
-          "FluentValidation": "8.6.2",
+          "FluentValidation": "9.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.5"
         },
         "runtime": {
           "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.6.2.0"
+            "fileVersion": "9.0.0.0"
           }
         },
         "compile": {
           "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {}
         }
       },
-      "MediatR/8.0.1": {
+      "MediatR/8.0.2": {
         "runtime": {
-          "lib/netstandard2.0/MediatR.dll": {
-            "assemblyVersion": "8.0.1.0",
-            "fileVersion": "8.0.1.0"
+          "lib/netstandard2.1/MediatR.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.2.0"
           }
         },
         "compile": {
-          "lib/netstandard2.0/MediatR.dll": {}
+          "lib/netstandard2.1/MediatR.dll": {}
         }
       },
       "MediatR.Extensions.Microsoft.DependencyInjection/8.0.1": {
         "dependencies": {
-          "MediatR": "8.0.1",
+          "MediatR": "8.0.2",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.5"
         },
         "runtime": {
@@ -1302,8 +1299,8 @@
       },
       "MicroservicesProjectArchitecture.Application/1.0.0": {
         "dependencies": {
-          "FluentValidation": "8.6.2",
-          "MediatR": "8.0.1",
+          "FluentValidation": "9.0.0",
+          "MediatR": "8.0.2",
           "MicroservicesProjectArchitecture.Common": "1.0.0",
           "MicroservicesProjectArchitecture.Domain": "1.0.0",
           "MicroservicesProjectArchitecture.Persistance": "1.0.0"
@@ -1333,7 +1330,7 @@
       },
       "MicroservicesProjectArchitecture.Infrastructure/1.0.0": {
         "dependencies": {
-          "FluentValidation": "8.6.2",
+          "FluentValidation": "9.0.0",
           "MicroservicesProjectArchitecture.Application": "1.0.0",
           "MicroservicesProjectArchitecture.Common": "1.0.0"
         },
@@ -2990,33 +2987,33 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FluentValidation/8.6.2": {
+    "FluentValidation/9.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-N2vz+f6pAX9AI19hu83U2LJjjc/ETzWGlICVanu3DIG76QhzEu3PR/CQSFBX69PRuBTivrW4jhBzeV7dXIfqyw==",
-      "path": "fluentvalidation/8.6.2",
-      "hashPath": "fluentvalidation.8.6.2.nupkg.sha512"
+      "sha512": "sha512-2SPrOW660J7v56AC2Wd4MqdiXOoEUPf72J2yMx2F3y6Ylw5pvuYrbjI435wimdTCleGgssgsdTwUJHc72dkTMw==",
+      "path": "fluentvalidation/9.0.0",
+      "hashPath": "fluentvalidation.9.0.0.nupkg.sha512"
     },
-    "FluentValidation.AspNetCore/8.6.2": {
+    "FluentValidation.AspNetCore/9.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-55s9XfDEtykWAd3KjWiB9xM6FsYQW4K0gTWY4Sl4f65vEdb2nlS3uijtKIpRuayLYMC5/Bvd9QUhOsSGZ11Pwg==",
-      "path": "fluentvalidation.aspnetcore/8.6.2",
-      "hashPath": "fluentvalidation.aspnetcore.8.6.2.nupkg.sha512"
+      "sha512": "sha512-mOvSEFLQzGksTLbfDjIr0mPVqeMoxPexpO//fXLYvyIWzhy/emlpHs7A5ZtHNiO40ntQdibWx8fCDHTVNkAyaQ==",
+      "path": "fluentvalidation.aspnetcore/9.0.0",
+      "hashPath": "fluentvalidation.aspnetcore.9.0.0.nupkg.sha512"
     },
-    "FluentValidation.DependencyInjectionExtensions/8.6.2": {
+    "FluentValidation.DependencyInjectionExtensions/9.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-A3Hw0xjB/j6b/UiC8RgLsp5TkApZOsLzh5LAmfZkbQpWBrAqo8B4eOm+uyYhN3crSg0E6kgse8k6EdZpRoj+sQ==",
-      "path": "fluentvalidation.dependencyinjectionextensions/8.6.2",
-      "hashPath": "fluentvalidation.dependencyinjectionextensions.8.6.2.nupkg.sha512"
+      "sha512": "sha512-Dz+9Y5c2KVOCtssClRxNCceGWp+0uSGcTQEgWFGoqRyO1wlU89KwIsmaFtMKvuwXIH5beiMTidHxeXhWfPK7gQ==",
+      "path": "fluentvalidation.dependencyinjectionextensions/9.0.0",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.9.0.0.nupkg.sha512"
     },
-    "MediatR/8.0.1": {
+    "MediatR/8.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nqtv05FHNNNLmEv4QN9pRtmSLa0bnDPciOjLKpA/k5FZIVS72vPyY3/1lHQ9V/dcQSMA5ZLig62SyRk2cSKNBA==",
-      "path": "mediatr/8.0.1",
-      "hashPath": "mediatr.8.0.1.nupkg.sha512"
+      "sha512": "sha512-6mexVNDRj2T/z0OkxO5H5HPKowTP1iyToCACV/bZ/mU1X4MbzcBlqqQwGF40k+rfi+1ePcTYzSZLsFp2zM4e7g==",
+      "path": "mediatr/8.0.2",
+      "hashPath": "mediatr.8.0.2.nupkg.sha512"
     },
     "MediatR.Extensions.Microsoft.DependencyInjection/8.0.1": {
       "type": "package",

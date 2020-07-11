@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "MvjJVMMLn6P65WD3h5H7PJ51gkOud6LR2N/o8kctKd7197NL+imTmZ3uOPBEmVG73zG6OPRM84LiK+F5P6vogw==",
+  "dgSpecHash": "TUmS98Rnhp3AO6hg5xDB8THi5ITljqbK0yEUYDO2KOS1Oy5jAiQSuDGL9VuSdil0WW/72kNUT3gLUo19TVaSUQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Liviu\\Career\\Articles\\ProjectTemplate .NET core 3.1\\MicroservicesProjectArchitecture.WebApi\\MicroservicesProjectArchitecture.Infrastructure\\MicroservicesProjectArchitecture.Infrastructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Liviu\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
-    "C:\\Users\\Liviu\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\Liviu\\.nuget\\packages\\fluentvalidation\\9.0.0\\fluentvalidation.9.0.0.nupkg.sha512",
+    "C:\\Users\\Liviu\\.nuget\\packages\\mediatr\\8.0.2\\mediatr.8.0.2.nupkg.sha512",
     "C:\\Users\\Liviu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Liviu\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

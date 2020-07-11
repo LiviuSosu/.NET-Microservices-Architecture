@@ -2,11 +2,8 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "FluentValidation/8.6.2": {
+      "FluentValidation/9.0.0": {
         "type": "package",
-        "dependencies": {
-          "System.ComponentModel.Annotations": "4.4.1"
-        },
         "compile": {
           "lib/netstandard2.0/FluentValidation.dll": {}
         },
@@ -14,11 +11,11 @@
           "lib/netstandard2.0/FluentValidation.dll": {}
         }
       },
-      "FluentValidation.AspNetCore/8.6.2": {
+      "FluentValidation.AspNetCore/9.0.0": {
         "type": "package",
         "dependencies": {
-          "FluentValidation": "8.6.2",
-          "FluentValidation.DependencyInjectionExtensions": "8.6.2"
+          "FluentValidation": "9.0.0",
+          "FluentValidation.DependencyInjectionExtensions": "9.0.0"
         },
         "compile": {
           "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {}
@@ -30,10 +27,10 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "FluentValidation.DependencyInjectionExtensions/8.6.2": {
+      "FluentValidation.DependencyInjectionExtensions/9.0.0": {
         "type": "package",
         "dependencies": {
-          "FluentValidation": "8.6.2",
+          "FluentValidation": "9.0.0",
           "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
         },
         "compile": {
@@ -43,13 +40,13 @@
           "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {}
         }
       },
-      "MediatR/8.0.1": {
+      "MediatR/8.0.2": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/MediatR.dll": {}
+          "lib/netstandard2.1/MediatR.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/MediatR.dll": {}
+          "lib/netstandard2.1/MediatR.dll": {}
         }
       },
       "MediatR.Extensions.Microsoft.DependencyInjection/8.0.1": {
@@ -1357,8 +1354,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "FluentValidation": "8.6.2",
-          "MediatR": "8.0.1",
+          "FluentValidation": "9.0.0",
+          "MediatR": "8.0.2",
           "MicroservicesProjectArchitecture.Common": "1.0.0",
           "MicroservicesProjectArchitecture.Domain": "1.0.0",
           "MicroservicesProjectArchitecture.Persistance": "1.0.0"
@@ -1394,7 +1391,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "FluentValidation": "8.6.2",
+          "FluentValidation": "9.0.0",
           "MicroservicesProjectArchitecture.Application": "1.0.0",
           "MicroservicesProjectArchitecture.Common": "1.0.0"
         },
@@ -1436,59 +1433,53 @@
     }
   },
   "libraries": {
-    "FluentValidation/8.6.2": {
-      "sha512": "N2vz+f6pAX9AI19hu83U2LJjjc/ETzWGlICVanu3DIG76QhzEu3PR/CQSFBX69PRuBTivrW4jhBzeV7dXIfqyw==",
+    "FluentValidation/9.0.0": {
+      "sha512": "2SPrOW660J7v56AC2Wd4MqdiXOoEUPf72J2yMx2F3y6Ylw5pvuYrbjI435wimdTCleGgssgsdTwUJHc72dkTMw==",
       "type": "package",
-      "path": "fluentvalidation/8.6.2",
+      "path": "fluentvalidation/9.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "fluentvalidation.8.6.2.nupkg.sha512",
+        "fluentvalidation.9.0.0.nupkg.sha512",
         "fluentvalidation.nuspec",
-        "lib/net45/FluentValidation.dll",
-        "lib/net45/FluentValidation.xml",
-        "lib/netstandard1.1/FluentValidation.dll",
-        "lib/netstandard1.1/FluentValidation.xml",
-        "lib/netstandard1.6/FluentValidation.dll",
-        "lib/netstandard1.6/FluentValidation.xml",
+        "lib/net461/FluentValidation.dll",
+        "lib/net461/FluentValidation.xml",
         "lib/netstandard2.0/FluentValidation.dll",
         "lib/netstandard2.0/FluentValidation.xml"
       ]
     },
-    "FluentValidation.AspNetCore/8.6.2": {
-      "sha512": "55s9XfDEtykWAd3KjWiB9xM6FsYQW4K0gTWY4Sl4f65vEdb2nlS3uijtKIpRuayLYMC5/Bvd9QUhOsSGZ11Pwg==",
+    "FluentValidation.AspNetCore/9.0.0": {
+      "sha512": "mOvSEFLQzGksTLbfDjIr0mPVqeMoxPexpO//fXLYvyIWzhy/emlpHs7A5ZtHNiO40ntQdibWx8fCDHTVNkAyaQ==",
       "type": "package",
-      "path": "fluentvalidation.aspnetcore/8.6.2",
+      "path": "fluentvalidation.aspnetcore/9.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "fluentvalidation.aspnetcore.8.6.2.nupkg.sha512",
+        "fluentvalidation.aspnetcore.9.0.0.nupkg.sha512",
         "fluentvalidation.aspnetcore.nuspec",
-        "lib/netcoreapp3.0/FluentValidation.AspNetCore.dll",
-        "lib/netcoreapp3.0/FluentValidation.AspNetCore.xml",
+        "lib/netcoreapp2.1/FluentValidation.AspNetCore.dll",
+        "lib/netcoreapp2.1/FluentValidation.AspNetCore.xml",
         "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll",
-        "lib/netcoreapp3.1/FluentValidation.AspNetCore.xml",
-        "lib/netstandard2.0/FluentValidation.AspNetCore.dll",
-        "lib/netstandard2.0/FluentValidation.AspNetCore.xml"
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.xml"
       ]
     },
-    "FluentValidation.DependencyInjectionExtensions/8.6.2": {
-      "sha512": "A3Hw0xjB/j6b/UiC8RgLsp5TkApZOsLzh5LAmfZkbQpWBrAqo8B4eOm+uyYhN3crSg0E6kgse8k6EdZpRoj+sQ==",
+    "FluentValidation.DependencyInjectionExtensions/9.0.0": {
+      "sha512": "Dz+9Y5c2KVOCtssClRxNCceGWp+0uSGcTQEgWFGoqRyO1wlU89KwIsmaFtMKvuwXIH5beiMTidHxeXhWfPK7gQ==",
       "type": "package",
-      "path": "fluentvalidation.dependencyinjectionextensions/8.6.2",
+      "path": "fluentvalidation.dependencyinjectionextensions/9.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "fluentvalidation.dependencyinjectionextensions.8.6.2.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.9.0.0.nupkg.sha512",
         "fluentvalidation.dependencyinjectionextensions.nuspec",
         "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
         "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml"
       ]
     },
-    "MediatR/8.0.1": {
-      "sha512": "nqtv05FHNNNLmEv4QN9pRtmSLa0bnDPciOjLKpA/k5FZIVS72vPyY3/1lHQ9V/dcQSMA5ZLig62SyRk2cSKNBA==",
+    "MediatR/8.0.2": {
+      "sha512": "6mexVNDRj2T/z0OkxO5H5HPKowTP1iyToCACV/bZ/mU1X4MbzcBlqqQwGF40k+rfi+1ePcTYzSZLsFp2zM4e7g==",
       "type": "package",
-      "path": "mediatr/8.0.1",
+      "path": "mediatr/8.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1497,7 +1488,9 @@
         "lib/net461/MediatR.xml",
         "lib/netstandard2.0/MediatR.dll",
         "lib/netstandard2.0/MediatR.xml",
-        "mediatr.8.0.1.nupkg.sha512",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.8.0.2.nupkg.sha512",
         "mediatr.nuspec"
       ]
     },
@@ -5240,8 +5233,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "FluentValidation.AspNetCore >= 8.6.2",
-      "MediatR >= 8.0.1",
+      "FluentValidation.AspNetCore >= 9.0.0",
+      "MediatR >= 8.0.2",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 8.0.1",
       "MicroservicesProjectArchitecture.Application >= 1.0.0",
       "MicroservicesProjectArchitecture.Common >= 1.0.0",
@@ -5307,11 +5300,11 @@
         "dependencies": {
           "FluentValidation.AspNetCore": {
             "target": "Package",
-            "version": "[8.6.2, )"
+            "version": "[9.0.0, )"
           },
           "MediatR": {
             "target": "Package",
-            "version": "[8.0.1, )"
+            "version": "[8.0.2, )"
           },
           "MediatR.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",

@@ -2,11 +2,8 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "FluentValidation/8.6.2": {
+      "FluentValidation/9.0.0": {
         "type": "package",
-        "dependencies": {
-          "System.ComponentModel.Annotations": "4.4.1"
-        },
         "compile": {
           "lib/netstandard2.0/FluentValidation.dll": {}
         },
@@ -14,13 +11,13 @@
           "lib/netstandard2.0/FluentValidation.dll": {}
         }
       },
-      "MediatR/8.0.1": {
+      "MediatR/8.0.2": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/MediatR.dll": {}
+          "lib/netstandard2.1/MediatR.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/MediatR.dll": {}
+          "lib/netstandard2.1/MediatR.dll": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -1312,29 +1309,25 @@
     }
   },
   "libraries": {
-    "FluentValidation/8.6.2": {
-      "sha512": "N2vz+f6pAX9AI19hu83U2LJjjc/ETzWGlICVanu3DIG76QhzEu3PR/CQSFBX69PRuBTivrW4jhBzeV7dXIfqyw==",
+    "FluentValidation/9.0.0": {
+      "sha512": "2SPrOW660J7v56AC2Wd4MqdiXOoEUPf72J2yMx2F3y6Ylw5pvuYrbjI435wimdTCleGgssgsdTwUJHc72dkTMw==",
       "type": "package",
-      "path": "fluentvalidation/8.6.2",
+      "path": "fluentvalidation/9.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "fluentvalidation.8.6.2.nupkg.sha512",
+        "fluentvalidation.9.0.0.nupkg.sha512",
         "fluentvalidation.nuspec",
-        "lib/net45/FluentValidation.dll",
-        "lib/net45/FluentValidation.xml",
-        "lib/netstandard1.1/FluentValidation.dll",
-        "lib/netstandard1.1/FluentValidation.xml",
-        "lib/netstandard1.6/FluentValidation.dll",
-        "lib/netstandard1.6/FluentValidation.xml",
+        "lib/net461/FluentValidation.dll",
+        "lib/net461/FluentValidation.xml",
         "lib/netstandard2.0/FluentValidation.dll",
         "lib/netstandard2.0/FluentValidation.xml"
       ]
     },
-    "MediatR/8.0.1": {
-      "sha512": "nqtv05FHNNNLmEv4QN9pRtmSLa0bnDPciOjLKpA/k5FZIVS72vPyY3/1lHQ9V/dcQSMA5ZLig62SyRk2cSKNBA==",
+    "MediatR/8.0.2": {
+      "sha512": "6mexVNDRj2T/z0OkxO5H5HPKowTP1iyToCACV/bZ/mU1X4MbzcBlqqQwGF40k+rfi+1ePcTYzSZLsFp2zM4e7g==",
       "type": "package",
-      "path": "mediatr/8.0.1",
+      "path": "mediatr/8.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1343,7 +1336,9 @@
         "lib/net461/MediatR.xml",
         "lib/netstandard2.0/MediatR.dll",
         "lib/netstandard2.0/MediatR.xml",
-        "mediatr.8.0.1.nupkg.sha512",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.8.0.2.nupkg.sha512",
         "mediatr.nuspec"
       ]
     },
@@ -4986,8 +4981,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "FluentValidation >= 8.6.2",
-      "MediatR >= 8.0.1",
+      "FluentValidation >= 9.0.0",
+      "MediatR >= 8.0.2",
       "MicroservicesProjectArchitecture.Common >= 1.0.0",
       "MicroservicesProjectArchitecture.Domain >= 1.0.0",
       "MicroservicesProjectArchitecture.Persistance >= 1.0.0"
@@ -5046,11 +5041,11 @@
         "dependencies": {
           "FluentValidation": {
             "target": "Package",
-            "version": "[8.6.2, )"
+            "version": "[9.0.0, )"
           },
           "MediatR": {
             "target": "Package",
-            "version": "[8.0.1, )"
+            "version": "[8.0.2, )"
           }
         },
         "imports": [

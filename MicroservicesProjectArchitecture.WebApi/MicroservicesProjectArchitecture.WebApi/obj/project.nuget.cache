@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "xed0pESMPoGep9cIGImOiCAFEdD7qqz6Mkwd9du3yKA8yW1LMCTHxygI9KzKY2siAeAXo1nYpRPvSbyid8j4NQ==",
+  "dgSpecHash": "5DCmHCG3BWdxuX3FoxwTmqdLTNlI6RXUT+Ixs3pviC0Yo5W87FKz3Pzq1NH7+2gkis1BWhxxA0vN6wiM5vVxlw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Liviu\\Career\\Articles\\ProjectTemplate .NET core 3.1\\MicroservicesProjectArchitecture.WebApi\\MicroservicesProjectArchitecture.WebApi\\MicroservicesProjectArchitecture.WebApi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Liviu\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
-    "C:\\Users\\Liviu\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.6.2\\fluentvalidation.aspnetcore.8.6.2.nupkg.sha512",
-    "C:\\Users\\Liviu\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\8.6.2\\fluentvalidation.dependencyinjectionextensions.8.6.2.nupkg.sha512",
-    "C:\\Users\\Liviu\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\Liviu\\.nuget\\packages\\fluentvalidation\\9.0.0\\fluentvalidation.9.0.0.nupkg.sha512",
+    "C:\\Users\\Liviu\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.0.0\\fluentvalidation.aspnetcore.9.0.0.nupkg.sha512",
+    "C:\\Users\\Liviu\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.0.0\\fluentvalidation.dependencyinjectionextensions.9.0.0.nupkg.sha512",
+    "C:\\Users\\Liviu\\.nuget\\packages\\mediatr\\8.0.2\\mediatr.8.0.2.nupkg.sha512",
     "C:\\Users\\Liviu\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.0.1\\mediatr.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
     "C:\\Users\\Liviu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Liviu\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
