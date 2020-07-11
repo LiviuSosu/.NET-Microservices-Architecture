@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MicroservicesProjectArchitecture.Application\MicroservicesProjectArchitecture.Application.csproj" />
     <ProjectReference Include="..\MicroservicesProjectArchitecture.Common\MicroservicesProjectArchitecture.Common.csproj" />
   </ItemGroup>

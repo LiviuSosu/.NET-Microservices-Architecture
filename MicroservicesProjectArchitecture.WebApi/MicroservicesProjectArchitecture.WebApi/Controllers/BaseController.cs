@@ -6,7 +6,7 @@ namespace MicroservicesProjectArchitecture.WebApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]/[action]")]
-    public class BaseController : ControllerBase
+    public class BaseController : Controller
     {
         private IMediator _mediator;
 
