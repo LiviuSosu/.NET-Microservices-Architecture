@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30204.135
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesProjectArchitecture.WebApi", "MicroservicesProjectArchitecture.WebApi\MicroservicesProjectArchitecture.WebApi.csproj", "{2CB1D464-87FA-4256-BDD9-769020F5B8C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesProjectArchitecture.WebApi", "MicroservicesProjectArchitecture.WebApi\MicroservicesProjectArchitecture.WebApi.csproj", "{2CB1D464-87FA-4256-BDD9-769020F5B8C3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{EB4EA07F-70F5-40BB-9017-B8C0D1F11D7B}"
 EndProject
@@ -13,19 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C483C29B-7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8CD89B55-ACBA-48BB-8B1F-C8B0497A6E28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesProjectArchitecture.Infrastructure", "MicroservicesProjectArchitecture.Infrastructure\MicroservicesProjectArchitecture.Infrastructure.csproj", "{ED73CB66-ABE1-4C49-9697-6765580F6404}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesProjectArchitecture.Infrastructure", "MicroservicesProjectArchitecture.Infrastructure\MicroservicesProjectArchitecture.Infrastructure.csproj", "{ED73CB66-ABE1-4C49-9697-6765580F6404}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesProjectArchitecture.Persistance", "MicroservicesProjectArchitecture.Persistance\MicroservicesProjectArchitecture.Persistance.csproj", "{5E1ABE44-C372-47DD-BFFA-59ECD31CEE5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesProjectArchitecture.Persistance", "MicroservicesProjectArchitecture.Persistance\MicroservicesProjectArchitecture.Persistance.csproj", "{5E1ABE44-C372-47DD-BFFA-59ECD31CEE5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesProjectArchitecture.Migrations", "MicroservicesProjectArchitecture.Persistance.Migrations\MicroservicesProjectArchitecture.Migrations.csproj", "{F4E049AF-CE4B-40D2-B112-D6ABD36FD0A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesProjectArchitecture.Migrations", "MicroservicesProjectArchitecture.Persistance.Migrations\MicroservicesProjectArchitecture.Migrations.csproj", "{F4E049AF-CE4B-40D2-B112-D6ABD36FD0A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesProjectArchitecture.Application", "MicroservicesProjectArchitecture.Application\MicroservicesProjectArchitecture.Application.csproj", "{D68384B0-BA40-4166-85CD-8302CEAB2C8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesProjectArchitecture.Application", "MicroservicesProjectArchitecture.Application\MicroservicesProjectArchitecture.Application.csproj", "{D68384B0-BA40-4166-85CD-8302CEAB2C8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesProjectArchitecture.Domain", "MicroservicesProjectArchitecture.Domain\MicroservicesProjectArchitecture.Domain.csproj", "{093C1ACA-BFDE-45B2-89B1-325D52FB2713}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesProjectArchitecture.Domain", "MicroservicesProjectArchitecture.Domain\MicroservicesProjectArchitecture.Domain.csproj", "{093C1ACA-BFDE-45B2-89B1-325D52FB2713}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{FC0F7861-B43F-4225-8993-BE5DCB3E3B48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesProjectArchitecture.Common", "MicroservicesProjectArchitecture.Common\MicroservicesProjectArchitecture.Common.csproj", "{4487C685-8747-4DC6-8E6F-1875DCFCE9BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesProjectArchitecture.Common", "MicroservicesProjectArchitecture.Common\MicroservicesProjectArchitecture.Common.csproj", "{4487C685-8747-4DC6-8E6F-1875DCFCE9BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{6932FD9B-B291-48F6-9F20-9743666A7FB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{4487C685-8747-4DC6-8E6F-1875DCFCE9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4487C685-8747-4DC6-8E6F-1875DCFCE9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4487C685-8747-4DC6-8E6F-1875DCFCE9BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6932FD9B-B291-48F6-9F20-9743666A7FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6932FD9B-B291-48F6-9F20-9743666A7FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6932FD9B-B291-48F6-9F20-9743666A7FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6932FD9B-B291-48F6-9F20-9743666A7FB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +79,7 @@ Global
 		{D68384B0-BA40-4166-85CD-8302CEAB2C8E} = {C483C29B-75F2-4DF0-87DF-554ED5A27C23}
 		{093C1ACA-BFDE-45B2-89B1-325D52FB2713} = {C483C29B-75F2-4DF0-87DF-554ED5A27C23}
 		{4487C685-8747-4DC6-8E6F-1875DCFCE9BF} = {FC0F7861-B43F-4225-8993-BE5DCB3E3B48}
+		{6932FD9B-B291-48F6-9F20-9743666A7FB9} = {FC0F7861-B43F-4225-8993-BE5DCB3E3B48}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A96F8DD-4A1A-4C4A-B7B0-88DA5A66D39B}
