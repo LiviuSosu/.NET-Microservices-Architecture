@@ -338,14 +338,14 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "MicroservicesProjectArchitecture.Common/1.0.0": {
+      "Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/MicroservicesProjectArchitecture.Common.dll": {}
+          "bin/placeholder/Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MicroservicesProjectArchitecture.Common.dll": {}
+          "bin/placeholder/Common.dll": {}
         }
       }
     }
@@ -890,18 +890,18 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "MicroservicesProjectArchitecture.Common/1.0.0": {
+    "Common/1.0.0": {
       "type": "project",
-      "path": "../MicroservicesProjectArchitecture.Common/MicroservicesProjectArchitecture.Common.csproj",
-      "msbuildProject": "../MicroservicesProjectArchitecture.Common/MicroservicesProjectArchitecture.Common.csproj"
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Common >= 1.0.0",
       "FluentValidation.AspNetCore >= 11.2.1",
       "MediatR >= 10.0.1",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 10.0.1",
-      "MicroservicesProjectArchitecture.Common >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.8",
       "Newtonsoft.Json >= 13.0.1"
     ]
@@ -937,8 +937,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\MicroservicesProjectArchitecture.WebApi\\MicroservicesProjectArchitecture.Common\\MicroservicesProjectArchitecture.Common.csproj": {
-              "projectPath": "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\MicroservicesProjectArchitecture.WebApi\\MicroservicesProjectArchitecture.Common\\MicroservicesProjectArchitecture.Common.csproj"
+            "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\MicroservicesProjectArchitecture.WebApi\\Common\\Common.csproj": {
+              "projectPath": "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\MicroservicesProjectArchitecture.WebApi\\Common\\Common.csproj"
             }
           }
         }
