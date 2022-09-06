@@ -11,12 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C483C29B-7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8CD89B55-ACBA-48BB-8B1F-C8B0497A6E28}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesProjectArchitecture.Infrastructure", "MicroservicesProjectArchitecture.Infrastructure\MicroservicesProjectArchitecture.Infrastructure.csproj", "{ED73CB66-ABE1-4C49-9697-6765580F6404}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesProjectArchitecture.Persistance", "MicroservicesProjectArchitecture.Persistance\MicroservicesProjectArchitecture.Persistance.csproj", "{5E1ABE44-C372-47DD-BFFA-59ECD31CEE5E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesProjectArchitecture.Migrations", "MicroservicesProjectArchitecture.Persistance.Migrations\MicroservicesProjectArchitecture.Migrations.csproj", "{F4E049AF-CE4B-40D2-B112-D6ABD36FD0A1}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesProjectArchitecture.Application", "MicroservicesProjectArchitecture.Application\MicroservicesProjectArchitecture.Application.csproj", "{D68384B0-BA40-4166-85CD-8302CEAB2C8E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesProjectArchitecture.Domain", "MicroservicesProjectArchitecture.Domain\MicroservicesProjectArchitecture.Domain.csproj", "{093C1ACA-BFDE-45B2-89B1-325D52FB2713}"
@@ -29,24 +23,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{1CDB107E-818C-4336-87C6-8216464702D4}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{7D37BAE1-C5D1-4452-B389-D914C073D39E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistance", "Persistance\Persistance.csproj", "{DFD68F5B-E24C-4B28-A6DD-99D95B70677B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Migrations", "Migrations\Migrations.csproj", "{3B7D850C-2737-4C50-B5B6-E516080E954E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ED73CB66-ABE1-4C49-9697-6765580F6404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ED73CB66-ABE1-4C49-9697-6765580F6404}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ED73CB66-ABE1-4C49-9697-6765580F6404}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ED73CB66-ABE1-4C49-9697-6765580F6404}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5E1ABE44-C372-47DD-BFFA-59ECD31CEE5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E1ABE44-C372-47DD-BFFA-59ECD31CEE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E1ABE44-C372-47DD-BFFA-59ECD31CEE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E1ABE44-C372-47DD-BFFA-59ECD31CEE5E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F4E049AF-CE4B-40D2-B112-D6ABD36FD0A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F4E049AF-CE4B-40D2-B112-D6ABD36FD0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F4E049AF-CE4B-40D2-B112-D6ABD36FD0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F4E049AF-CE4B-40D2-B112-D6ABD36FD0A1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D68384B0-BA40-4166-85CD-8302CEAB2C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D68384B0-BA40-4166-85CD-8302CEAB2C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D68384B0-BA40-4166-85CD-8302CEAB2C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -67,19 +55,31 @@ Global
 		{1CDB107E-818C-4336-87C6-8216464702D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CDB107E-818C-4336-87C6-8216464702D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CDB107E-818C-4336-87C6-8216464702D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D37BAE1-C5D1-4452-B389-D914C073D39E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D37BAE1-C5D1-4452-B389-D914C073D39E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D37BAE1-C5D1-4452-B389-D914C073D39E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D37BAE1-C5D1-4452-B389-D914C073D39E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD68F5B-E24C-4B28-A6DD-99D95B70677B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD68F5B-E24C-4B28-A6DD-99D95B70677B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD68F5B-E24C-4B28-A6DD-99D95B70677B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD68F5B-E24C-4B28-A6DD-99D95B70677B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B7D850C-2737-4C50-B5B6-E516080E954E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B7D850C-2737-4C50-B5B6-E516080E954E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B7D850C-2737-4C50-B5B6-E516080E954E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B7D850C-2737-4C50-B5B6-E516080E954E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{ED73CB66-ABE1-4C49-9697-6765580F6404} = {EA3BCC6D-AC09-4541-98DB-0B999C4CF19F}
-		{5E1ABE44-C372-47DD-BFFA-59ECD31CEE5E} = {EA3BCC6D-AC09-4541-98DB-0B999C4CF19F}
-		{F4E049AF-CE4B-40D2-B112-D6ABD36FD0A1} = {EA3BCC6D-AC09-4541-98DB-0B999C4CF19F}
 		{D68384B0-BA40-4166-85CD-8302CEAB2C8E} = {C483C29B-75F2-4DF0-87DF-554ED5A27C23}
 		{093C1ACA-BFDE-45B2-89B1-325D52FB2713} = {C483C29B-75F2-4DF0-87DF-554ED5A27C23}
 		{6932FD9B-B291-48F6-9F20-9743666A7FB9} = {FC0F7861-B43F-4225-8993-BE5DCB3E3B48}
 		{44BB301B-893A-40A4-B742-F0B1511D5BB6} = {FC0F7861-B43F-4225-8993-BE5DCB3E3B48}
 		{1CDB107E-818C-4336-87C6-8216464702D4} = {EB4EA07F-70F5-40BB-9017-B8C0D1F11D7B}
+		{7D37BAE1-C5D1-4452-B389-D914C073D39E} = {EA3BCC6D-AC09-4541-98DB-0B999C4CF19F}
+		{DFD68F5B-E24C-4B28-A6DD-99D95B70677B} = {EA3BCC6D-AC09-4541-98DB-0B999C4CF19F}
+		{3B7D850C-2737-4C50-B5B6-E516080E954E} = {EA3BCC6D-AC09-4541-98DB-0B999C4CF19F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A96F8DD-4A1A-4C4A-B7B0-88DA5A66D39B}

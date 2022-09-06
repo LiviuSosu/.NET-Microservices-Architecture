@@ -347,6 +347,16 @@
         "runtime": {
           "bin/placeholder/Common.dll": {}
         }
+      },
+      "Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -894,12 +904,18 @@
       "type": "project",
       "path": "../Common/Common.csproj",
       "msbuildProject": "../Common/Common.csproj"
+    },
+    "Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Common >= 1.0.0",
       "FluentValidation.AspNetCore >= 11.2.1",
+      "Infrastructure >= 1.0.0",
       "MediatR >= 10.0.1",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 10.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.8",
@@ -939,6 +955,9 @@
           "projectReferences": {
             "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\CleanCode.WebApi\\Common\\Common.csproj": {
               "projectPath": "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\CleanCode.WebApi\\Common\\Common.csproj"
+            },
+            "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\CleanCode.WebApi\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\CleanCode.WebApi\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

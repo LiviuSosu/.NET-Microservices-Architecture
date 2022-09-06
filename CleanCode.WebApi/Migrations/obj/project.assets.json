@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\CleanCode.WebApi\\MicroservicesProjectArchitecture.Infrastructure\\MicroservicesProjectArchitecture.Infrastructure.csproj",
-      "projectName": "MicroservicesProjectArchitecture.Infrastructure",
-      "projectPath": "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\CleanCode.WebApi\\MicroservicesProjectArchitecture.Infrastructure\\MicroservicesProjectArchitecture.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\CleanCode.WebApi\\Migrations\\Migrations.csproj",
+      "projectName": "Migrations",
+      "projectPath": "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\CleanCode.WebApi\\Migrations\\Migrations.csproj",
       "packagesPath": "C:\\Users\\Liviu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\CleanCode.WebApi\\MicroservicesProjectArchitecture.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\CleanCode.WebApi\\Migrations\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1871,11 +1871,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\CleanCode.WebApi\\MicroservicesProjectArchitecture.Persistance\\MicroservicesProjectArchitecture.Persistance.csproj",
-      "projectName": "MicroservicesProjectArchitecture.Persistance",
-      "projectPath": "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\CleanCode.WebApi\\MicroservicesProjectArchitecture.Persistance\\MicroservicesProjectArchitecture.Persistance.csproj",
+      "projectUniqueName": "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\CleanCode.WebApi\\Persistance\\Persistance.csproj",
+      "projectName": "Persistance",
+      "projectPath": "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\CleanCode.WebApi\\Persistance\\Persistance.csproj",
       "packagesPath": "C:\\Users\\Liviu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\CleanCode.WebApi\\MicroservicesProjectArchitecture.Persistance\\obj\\",
+      "outputPath": "C:\\Users\\Liviu\\Career\\Articles\\.NET-Microservices-Architecture\\CleanCode.WebApi\\Persistance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
