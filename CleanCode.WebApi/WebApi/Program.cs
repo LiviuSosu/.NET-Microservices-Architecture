@@ -3,6 +3,7 @@ using MediatR.Pipeline;
 using MicroservicesProjectArchitecture.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using Common.Cofiguration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(RequestPreProcessorBehavior<,>));
 builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(RequestPerformanceBehaviour<,>));
 builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(RequestValidationBehavior<,>));
+
+builder.Services.AddSingleton<IConfiguration, Common.Cofiguration.Configuration>();
 
 //using System;
 //using System.Collections.Generic;
