@@ -25,7 +25,7 @@ namespace Infrastructure
             var response = await next();
             _timer.Stop();
 
-            //TODO: log here
+            //TODO: log here 
 
             return response;
         }
